@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Layout from "./Layout";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+
+      <header>
+        <h2>
+         item xs={12} sm={6} md={4} lg={3} xl={2}(parametrs) complete responsive grid cards using material UI
+        </h2>
       </header>
+      <Layout/>
     </div>
   );
 }
